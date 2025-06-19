@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirrtech - Dashboard E-commerce IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                    <h1>Sirrtech</h1>
+                    <span>Automatisation IA E-commerce</span>
+                </div>
+                <nav class="nav">
+                    <a href="#secteurs" class="nav__link">Secteurs</a>
+                    <a href="#problematiques" class="nav__link">Problématiques</a>
+                    <a href="#metriques" class="nav__link">Métriques & ROI</a>
+                    <a href="#etudes" class="nav__link">Études de Cas</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section Secteurs -->
+        <section id="secteurs" class="section">
+            <div class="container">
+                <h2>Secteurs E-commerce</h2>
+                <div class="toggle-group">
+                    <button class="toggle-btn active" data-type="gros">Gros E-commerçants</button>
+                    <button class="toggle-btn" data-type="petits">E-commerçants Taille Humaine</button>
+                </div>
+                
+                <div class="secteurs-grid" id="secteursGrid">
+                    <!-- Contenu généré dynamiquement -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Problématiques -->
+        <section id="problematiques" class="section section--alt">
+            <div class="container">
+                <h2>Problématiques & Solutions</h2>
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">Toutes</button>
+                    <button class="filter-btn" data-filter="Service Client">Service Client</button>
+                    <button class="filter-btn" data-filter="Analytics">Analytics</button>
+                    <button class="filter-btn" data-filter="Marketing">Marketing</button>
+                    <button class="filter-btn" data-filter="Sécurité">Sécurité</button>
+                </div>
+                
+                <div class="problematiques-grid" id="problematiquesList">
+                    <!-- Contenu généré dynamiquement -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Métriques & ROI -->
+        <section id="metriques" class="section">
+            <div class="container">
+                <h2>Métriques & ROI</h2>
+                <div class="toggle-group">
+                    <button class="metrics-toggle active" data-size="petits">Petits E-commerçants</button>
+                    <button class="metrics-toggle" data-size="grands">Moyens/Grands E-commerçants</button>
+                </div>
+                
+                <div class="metrics-grid" id="metricsGrid">
+                    <!-- Contenu généré dynamiquement -->
+                </div>
+                
+                <div class="charts-section">
+                    <div class="chart-container">
+                        <h3>Comparaison Avant/Après</h3>
+                        <div class="progress-bars" id="progressBars">
+                            <!-- Barres de progression générées dynamiquement -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sources">
+                    <p>Sources : 
+                        <a href="https://www.ecommercenation.fr" target="_blank">E-commerce Nation</a>, 
+                        <a href="https://www.fevad.com" target="_blank">FEVAD</a>, 
+                        <a href="https://www.salesforce.com" target="_blank">Salesforce Commerce Cloud</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Études de Cas -->
+        <section id="etudes" class="section section--alt">
+            <div class="container">
+                <h2>Études de Cas Réelles</h2>
+                <div class="toggle-group">
+                    <button class="etudes-toggle active" data-size="petits">Petits/Moyens E-commerçants</button>
+                    <button class="etudes-toggle" data-size="grands">Gros E-commerçants</button>
+                </div>
+                
+                <div class="etudes-grid" id="etudesGrid">
+                    <!-- Contenu généré dynamiquement -->
+                </div>
+                
+                <div class="sources">
+                    <p>Sources : 
+                        <a href="https://www.shopware.com" target="_blank">Shopware Success Stories</a>, 
+                        <a href="https://www.cosmonauts.dev" target="_blank">Cosmonauts.dev</a>, 
+                        <a href="https://www.iadvize.com" target="_blank">iAdvize Case Studies</a>,
+                        <a href="https://www.republik-retail.com" target="_blank">Republik Retail</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sirrtech. Automatisation IA pour E-commerce.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
