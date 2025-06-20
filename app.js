@@ -149,7 +149,7 @@ const problematiquesList = [
     },
     {
         id: 8,
-        titre: "Analyse intelligente avis clients",
+        titre: "Détection proactive des problèmes clients",
         categorie: "Analytics",
         interet: "85%",
         impact: 4,
