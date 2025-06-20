@@ -126,6 +126,36 @@ const problematiquesList = [
         importance: 5,
         problematique: "Les fraudes e-commerce évoluent rapidement et les systèmes de détection traditionnels génèrent trop de faux positifs.",
         solution: "IA de détection fraude en temps réel avec machine learning adaptatif. Analyse comportementale multi-critères, scoring de risque dynamique."
+    },
+    {
+        id: 6,
+        titre: "Surveillance automatisée de la conformité RGPD",
+        categorie: "Sécurité",
+        interet: "90%",
+        impact: 5,
+        importance: 5,
+        problematique: "Respect RGPD complexe et sources de risques juridiques.",
+        solution: "Agent IA surveillant conformité et automatisant les réponses."
+    },
+    {
+        id: 7,
+        titre: "Personnalisation dynamique des recommandations produits",
+        categorie: "Marketing",
+        interet: "90%",
+        impact: 5,
+        importance: 5,
+        problematique: "Recommandations génériques peu adaptées au client.",
+        solution: "Workflow IA analysant comportement pour recommandations personnalisées."
+    },
+    {
+        id: 8,
+        titre: "Analyse intelligente avis clients",
+        categorie: "Analytics",
+        interet: "85%",
+        impact: 4,
+        importance: 4,
+        problematique: "Difficultés clients passent inaperçues (abandon panier, bugs)",
+        solution: "Système croisant analytics et messagerie + assistance proactive."
     }
 ];
 
@@ -305,7 +335,7 @@ function createSecteurCard(secteurName, marques) {
                 </div>
                 <div class="social-links">
                     ${marque.reseaux.map(reseau => `
-                        <a href="#" class="social-link social-link--${reseau}" target="_blank">
+                        <a class="social-link social-link--${reseau}" target="_blank">
                             ${getSocialIcon(reseau)}
                         </a>
                     `).join('')}
